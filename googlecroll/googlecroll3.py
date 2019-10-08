@@ -1,16 +1,18 @@
 
+import urllib.request
+from bs4 import BeautifulSoup
 from selenium import webdriver
 # from selenium.webdriver.common.keys import Keys
 
 browser = webdriver.Firefox(executable_path='C:/Users/student/Documents/jinahan/googlecroll/geckodriver.exe')
 
-browser.get("https://www.google.com/search?q="+"조국"+"&sxsrf=ACYBGNSRzU3ufdsJK1P8V79WyrsOnA4NIg:1570437429290&source=lnms&tbm=nws&sa=X&ved=0ahUKEwj4kPWo34nlAhWCwosBHUpoBAYQ_AUIEigB&biw=1067&bih=811?q=")
+browser.get("https://www.google.com/search?q="+"조국 수호"+"&sxsrf=ACYBGNSRzU3ufdsJK1P8V79WyrsOnA4NIg:1570437429290&source=lnms&tbm=nws&sa=X&ved=0ahUKEwj4kPWo34nlAhWCwosBHUpoBAYQ_AUIEigB&biw=1067&bih=811?q=")
 
 results = browser.find_elements_by_css_selector('div.g')
 
 hrefs = []
 
-for i in range(0,11):
+for i in range(0,10):
     link = results[i].find_element_by_tag_name("a")
     hrefs.append(link.get_attribute("href"))
 
@@ -25,6 +27,9 @@ for href in hrefs:
 
 # print(f.args['url'])
 
+#html = urllib.request.urlopen(results).read()
+#soup = BeautifulSoup(html,'html.parser')
 
+#table = soup.find('a aria-label',{'class': 'f1'})
 
-
+#print(soup)
