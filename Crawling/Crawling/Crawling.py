@@ -10,8 +10,10 @@ from datetime import datetime
 import lxml
 import json
 import pathlib
+import time
+import datetime
 
-###########################################다음키워드 뽑아오기
+#################다음키워드 뽑아오기############################
 html=requests.get("https://www.daum.net").text
 soup=BeautifulSoup(html,'html.parser')
 
@@ -23,7 +25,7 @@ for top in title_list:
 
     htmllist.append(top.text)
 
-###########################################키워드로 뉴스 검색
+################키워드로 뉴스 검색 ############################
 #url를 나눈다(page 1,2,3 넣고 keyword넣기 위해서)
 furl="https://search.daum.net/search?w=news&sort=recency&q="
 surl="&cluster=n&DA=STC&s=NS&a=STCF&dc=STC&pg=1&r=1&p="
@@ -45,8 +47,7 @@ for keyword in htmllist:
             daumitem.append({"title":list2.text,"link":list.get('href')})
     daumlist.append({"keyword":keyword,"items":daumitem})
 
-
-#############################################파일 저장   
+################파일 저장###########################
     
 #json으로저장 
 with open('C:/Users/student/Documents/jinahan/Crawling/Crawling/results/DCrawling.json','w',encoding = "utf-8") as make_file:
@@ -85,3 +86,33 @@ for i in range(len(ranlist)) :
         file.close() 
     else:
         print("Error Code:" + rescode)
+        
+##############폴더 만들기####################
+
+def get_today() :
+    now = time.localtime()
+    s = "%04d-%02d-%02d" % (now.tm_year,now.tm_mon,now.tm_mday)
+    return s
+
+def get_time() :
+    now = time.localtime()
+    now_time = time.localtime()
+    t = "%02d%02d" %(now.tm_hour,now.tm_min)
+    return t
+
+def make_folder(folder_name) :
+    if not os.path.isdir(folder_name) :
+        os.mkdir(folder_name)
+
+
+root_dir="C:/Users/student/Documents/jinahan/Crawling/etc"
+today = get_today()
+work_dir = root_dir + "/" + today
+
+make_folder(work_dir)        
+
+root_dir_2 = work_dir
+time = get_time()
+work_dir_2 = root_dir_2+"/"+time
+
+make_folder(work_dir_2)
