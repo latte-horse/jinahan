@@ -83,15 +83,15 @@ def NaverCrawling():
         request.add_header("X-Naver-Client-Secret",client_secret)
         response = urllib.request.urlopen(request)
         rescode = response.getcode()
-        print(res)
+        
 
-            # if(rescode==200):
-            #     response_body = response.read()      
-            #     file = codecs.open('C:/Users/user/Documents/jinahan/Crawling/Crawling/results/NCrawling.json', 'a', 'utf8')
-            #     file.write(response_body.decode('utf-8'))
-            #     file.close() 
-            # else:
-            #     print("Error Code:" + rescode)
+        if(rescode==200):
+            response_body = response.read()      
+            file = codecs.open('C:/Users/user/Documents/jinahan/Crawling/Crawling/results/NCrawling.json', 'a', 'utf8')
+            file.write(response_body.decode('utf-8'))
+            file.close() 
+        else:
+            print("Error Code:" + rescode)
             
 ##############폴더 만들기####################
 
@@ -124,6 +124,9 @@ work_dir_2 = root_dir_2+"/"+time
 make_folder(work_dir_2)
 
 # ####### 데이터 프레임 구조 #########
-# col = ['site','key_word','URL','body']
-# df = pd.DataFrame(columns=col)
-# #print(df)
+totalKey_word = [htmllist,N_title]
+
+df1 = pd.DataFrame({'Data':pd.Timestamp('20191014'),
+                    'KeyWord':totalKey_word,
+                    'URL':3,
+                    'Description': 2})

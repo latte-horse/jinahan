@@ -1,0 +1,20 @@
+NAVER	1	미샤베스트1+1
+NAVER	2	미세플라스틱 미검출 샤프란
+NAVER	3	cjone 굿퀴즈
+NAVER	4	미샤 베스트
+NAVER	5	반트 1만개 이벤트
+NAVER	6	투썸플레이스 원두
+NAVER	7	안산대학교
+NAVER	8	투썸 원두
+NAVER	9	세리번나이트 오늘만 반값
+NAVER	10	미세플라스틱 섬유유연제
+DAUM	1	남동공단 화재
+DAUM	2	문근영
+DAUM	3	강희석
+DAUM	4	나경원
+DAUM	5	이승우
+DAUM	6	성현아
+DAUM	7	신주아
+DAUM	8	안산대학교
+DAUM	9	유령을 잡아라
+DAUM	10	경찰의 날

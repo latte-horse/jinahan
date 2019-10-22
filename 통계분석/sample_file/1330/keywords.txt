@@ -1,0 +1,20 @@
+NAVER	1	fnb캐시리플렛
+NAVER	2	남동공단 화재
+NAVER	3	반트1만개이벤트
+NAVER	4	세리번나이트 오늘만 반값
+NAVER	5	루피움
+NAVER	6	네파 피오패리스
+NAVER	7	강희석
+NAVER	8	남동공단
+NAVER	9	남동공단 불
+NAVER	10	김지현
+DAUM	1	남동공단 화재
+DAUM	2	김수현
+DAUM	3	강희석
+DAUM	4	권용원
+DAUM	5	이승우
+DAUM	6	슈퍼 요트 A
+DAUM	7	한아름
+DAUM	8	이마트
+DAUM	9	경찰의 날
+DAUM	10	박은지

@@ -1,0 +1,16 @@
+25	http://www.yeongnam.com/mnews/newsview.do?mode=newsView&amp;newskey=20191021.990011110383262	'NoneType' object has no attribute 'body'
+
+169	http://www.yeongnam.com/mnews/newsview.do?mode=newsView&amp;newskey=20191021.990011103383253	'NoneType' object has no attribute 'body'
+
+179	http://www.yeongnam.com/mnews/newsview.do?mode=newsView&amp;newskey=20191021.990011018153235	'NoneType' object has no attribute 'body'
+
+288	http://www.yeongnam.com/mnews/newsview.do?mode=newsView&amp;newskey=20191021.990011121023266	'NoneType' object has no attribute 'body'
+
+825	http://www.yeongnam.com/mnews/newsview.do?mode=newsView&amp;newskey=20191021.990011154143287	'NoneType' object has no attribute 'body'
+
+900	http://www.ktnews.com/sub/view.php?cd_news=109677	'NoneType' object has no attribute 'body'
+
+1118	http://stoo.asiae.co.kr/article.php?aid=58988939450	HTTPConnectionPool(host='stoo.asiae.co.kr', port=80): Read timed out.
+
+수집한 문서 개수: 1192개
+걸린 시간: 10m 53s

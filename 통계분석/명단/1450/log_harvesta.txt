@@ -1,0 +1,26 @@
+2	http://www.yeongnam.com/mnews/newsview.do?mode=newsView&amp;newskey=20191021.990011445063339	'NoneType' object has no attribute 'body'
+
+74	http://www.yeongnam.com/mnews/newsview.do?mode=newsView&amp;newskey=20191021.990011407383312	'NoneType' object has no attribute 'body'
+
+155	http://www.yeongnam.com/mnews/newsview.do?mode=newsView&amp;newskey=20191021.990011445063339	'NoneType' object has no attribute 'body'
+
+233	http://www.yeongnam.com/mnews/newsview.do?mode=newsView&amp;newskey=20191021.990011337083302	'NoneType' object has no attribute 'body'
+
+451	http://www.yeongnam.com/mnews/newsview.do?mode=newsView&amp;newskey=20191021.990011321363297	'NoneType' object has no attribute 'body'
+
+453	http://www.yeongnam.com/mnews/newsview.do?mode=newsView&amp;newskey=20191021.990011403153309	'NoneType' object has no attribute 'body'
+
+475	http://www.yeongnam.com/mnews/newsview.do?mode=newsView&amp;newskey=20191021.990011103383253	'NoneType' object has no attribute 'body'
+
+518	http://www.yeongnam.com/mnews/newsview.do?mode=newsView&amp;newskey=20191021.990011407383312	'NoneType' object has no attribute 'body'
+
+833	http://www.yeongnam.com/mnews/newsview.do?mode=newsView&amp;newskey=20191021.990011154143287	'NoneType' object has no attribute 'body'
+
+1047	https://cp.news.search.daum.net/p/85249778	HTTPConnectionPool(host='www.veritas-a.com', port=80): Read timed out. (read timeout=10)
+
+1073	http://stoo.asiae.co.kr/article.php?aid=58996677100	HTTPConnectionPool(host='stoo.asiae.co.kr', port=80): Read timed out.
+
+1076	http://stoo.asiae.co.kr/article.php?aid=58996428364	HTTPConnectionPool(host='stoo.asiae.co.kr', port=80): Read timed out.
+
+수집한 문서 개수: 1187개
+걸린 시간: 12m 07s

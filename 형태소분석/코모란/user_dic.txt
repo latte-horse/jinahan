@@ -1,0 +1,83 @@
+1龋急	NNP
+2龋急	NNP
+3龋急	NNP
+4龋急	NNP
+5龋急	NNP
+6龋急	NNP
+7龋急	NNP
+8龋急	NNP
+9龋急	NNP
+1 龋急	NNP
+2 龋急	NNP
+3 龋急	NNP
+4 龋急	NNP
+5 龋急	NNP
+6 龋急	NNP
+7 龋急	NNP
+8 龋急	NNP
+9 龋急	NNP
+辑匡枚档傍荤 NNP
+1老	NNP
+2老	NNP
+3老	NNP
+4老	NNP
+5老	NNP
+6老	NNP
+7老	NNP
+8老	NNP
+9老	NNP
+10老	NNP
+11老	NNP
+12老	NNP
+13老	NNP
+14老	NNP
+15老	NNP
+16老	NNP
+17老	NNP
+18老	NNP
+19老	NNP
+20老	NNP
+21老	NNP
+22老	NNP
+23老	NNP
+24老	NNP
+25老	NNP
+26老	NNP
+27老	NNP
+28老	NNP
+29老	NNP
+30老	NNP
+31老	NNP
+1 老	NNP
+2 老	NNP
+3 老	NNP
+4 老	NNP
+5 老	NNP
+6 老	NNP
+7 老	NNP
+8 老	NNP
+9 老	NNP
+10 老	NNP
+11 老	NNP
+12 老	NNP
+13 老	NNP
+14 老	NNP
+15 老	NNP
+16 老	NNP
+17 老	NNP
+18 老	NNP
+19 老	NNP
+20 老	NNP
+21 老	NNP
+22 老	NNP
+23 老	NNP
+24 老	NNP
+25 老	NNP
+26 老	NNP
+27 老	NNP
+28 老	NNP
+29 老	NNP
+30 老	NNP
+31 老	NNP
+瘤窍枚 颇诀	NNP
+辑匡 瘤窍枚 颇诀	NNP
